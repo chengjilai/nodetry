@@ -1,0 +1,14 @@
+{
+  "name": "nodetry",
+  "type":"module",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "esbuild index.ts --bundle --platform=node --target=node26 --format=esm --outfile=out/nodetry.js && rm -f out/nodetry && node --build-sea sea-config.json"
+  }
+}

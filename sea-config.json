@@ -1,0 +1,6 @@
+{
+  "main": "out/nodetry.js",
+  "mainFormat": "module",
+  "output": "out/nodetry",
+  "disableExperimentalSEAWarning": true
+}
